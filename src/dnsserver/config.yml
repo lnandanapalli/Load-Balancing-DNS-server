@@ -1,0 +1,17 @@
+ip_addresses:
+  - 52.2.87.66
+  - 54.151.85.122
+  - 54.218.75.250
+
+dns_ip_address: 3.145.162.236
+
+# round or geo or load
+algorithm: load
+
+geo_data_file: geo_data.json
+load_data_file: load.json
+
+# directory of all files - the home of this project
+home_dir: /home/admin/dnsserver
+
+geo_api_key: 68afca1e724b704e64db96490fdce2c8

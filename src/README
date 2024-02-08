@@ -1,0 +1,9 @@
+Place the server_load.py script and its configuration  file on the web server and run it.
+
+Place the dnsserver folder in the linux machine. Configure the path of the folder as the homedir in the config.yml file and make the necessary changed to ip addresses in the config and to their geo data. Ensure that port 53 and 8080 are not used by any other processes.
+
+Run the dns server with the command
+sudo python3 dnsserver.py --port 53 --tcp --udp
+
+To stop
+sudo python3 dnsserver.py stop
